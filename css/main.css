@@ -1,0 +1,140 @@
+main{
+    padding: 18px 20px 30px 20px;
+}
+
+.item-list{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-bottom: 1px solid #ededef;
+}
+
+.item-list__img{
+    width: 65px;
+    height: 65px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-list__img img{
+    width: 30px;
+}
+
+.item-list__info{
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+    top: 20px;
+}
+
+.item-list__info-price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.chat-content {
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-content__mine li {
+    margin-top: 10px;
+    float: right;
+}
+
+.chat-content__mine-time{
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    top: 54px;
+}
+
+.chat-content__other{
+    position: fixed;
+    float: left;
+    top: 255px;
+}
+
+.chat-content__other li img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    float: left;
+    margin-right: 8px;
+}
+
+.chat-content__other-time{
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    top: 26px;
+}
+
+.chat-box {
+    padding: 10px 18px 10px 15px;
+    border-radius: 5px;
+    float: left;
+    line-height: 150%;
+}
+
+.mine {
+    float: right;
+    background-color: #FF7D00;
+    color: white;
+    border-radius: 20px 1px 20px 20px ;
+    width: 235px;
+}
+
+.other{
+    background: #e9ebef;
+    border-radius: 1px 20px 20px 20px ;
+}
+
+.alert-date{
+    border: 1px solid #eaeaea;
+    position: absolute;
+    top: 40%;
+    border-radius: 8px;
+    padding: 15px;
+    width: 315px;
+}
+
+.alert-date__info-img img{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 30px;
+    display: inline;
+    float: left;
+}
+
+.alert-date__info-time{
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 8px;
+}
+
+.alert-date__info-sys{
+    margin-top: 10px;
+    margin-left: 32px;
+}
+
+.alert-msg{
+    color: silver;
+    font-size: small;
+    position: absolute;
+    margin-top: 262px;
+    margin-left: 30px;
+}
